@@ -20,4 +20,4 @@ jobs:
       - name: Build the docker image
         run: docker build . --file Dockerfile -t 5h4k4r/producer-nest:v1
       - name: Push to Docker
-        run: docker push ${{ secrets.DOCKER_USER }}/producer-nest
+        run: docker push ${{ secrets.DOCKER_USER }}/producer-nest:v1
