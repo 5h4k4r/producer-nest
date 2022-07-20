@@ -10,7 +10,7 @@ import { RabbitMqService } from './rabbit-mq.service';
         transport: Transport.RMQ,
         options: {
           urls: ['amqp://john123:123456@localhost:5672/demo-vhost'],
-          queue: 'producer-consumer',
+          queue: 'demo-queue',
         },
       },
     ]),
